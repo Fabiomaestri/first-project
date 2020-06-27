@@ -12,22 +12,17 @@ h1, h2, h3, h4, h5, h6{
     font-family: "poppins", sans-serif;
 }
 
-li{
-    font-family: "raleway", sans-serif;
-}
-
 h1, h2{
     font-family: "popins", sans-serif;
     font-weight: 900;
     font-size: 65px;
 }
 
-/*------------------------------- background colors */
-.footer-bg-color{
-    background-color: #eeeeee;
+li{
+    font-family: "raleway", sans-serif;
 }
 
-/*------------------------------- Image background */
+/*------------------------------- Image background*/
 .first-background-image{
     background: url(../images/1.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -47,67 +42,54 @@ h1, h2{
     -o-background-size: cover;
     background-size: cover;
     
-    min-height: 800px;
+    min-height: 500px;
     max-width: 100%;
     margin: 0;
 }
 
-.container-fluid, 
-.container-lg, 
-.container-md, 
-.container-sm, 
-.container-xl {
-    margin-top: 80px;
-}
-
-.bgsection2{
-    /*background-color: rgb(166, 201, 253);
-    color: white; */
-    padding: 30px;
-}
-
-.imagee-talk{
-    background: url(../images/talk.png) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    width: 100px;
-    height: 100px;
-    align-self: stretch;
-}
-
-.imagee-learnkey{
-    background: url(../images/learnkey.png) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    width: 100px;
-    height: 100px;
-    align-self: stretch;
-}
-
-.imagee-ise{
+/*------------------------------- Image background*/
+.partner-img-1{
     background: url(../images/ise.png) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-
-    width: 100px;
-    height: 100px;
+    background-size: contain;
 }
 
-.imagee-liffey{
+.partner-img-2{
+    background: url(../images/learnkey.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+}
+
+.partner-img-3{
+    background: url(../images/ise.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+}
+
+.partner-img-4{
     background: url(../images/liffey.png) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: contain;
 
-    width: 100px;
-    height: 100px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+/*
+.feature-section{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}*/
+
+.footer-section{
+    background-color: #f8f8f8;
+    padding-top: 100px;
 }
