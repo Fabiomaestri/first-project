@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: "popins", sans-serif;
+}
+
+p{
+    font-family: "raleway", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "poppins", sans-serif;
+}
+
+li{
+    font-family: "raleway", sans-serif;
+}
+
+h1, h2{
+    font-family: "popins", sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+}
+
+/*------------------------------- background colors */
+.footer-bg-color{
+    background-color: #eeeeee;
+}
+
+/*------------------------------- Image background */
+.first-background-image{
+    background: url(../images/1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    min-height: 800px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.second-background-image{
+    background: url(../images/students.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    min-height: 800px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.container-fluid, 
+.container-lg, 
+.container-md, 
+.container-sm, 
+.container-xl {
+    margin-top: 80px;
+}
+
+.bgsection2{
+    /*background-color: rgb(166, 201, 253);
+    color: white; */
+    padding: 30px;
+}
+
+.imagee-talk{
+    background: url(../images/talk.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 100px;
+    height: 100px;
+    align-self: stretch;
+}
+
+.imagee-learnkey{
+    background: url(../images/learnkey.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 100px;
+    height: 100px;
+    align-self: stretch;
+}
+
+.imagee-ise{
+    background: url(../images/ise.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 100px;
+    height: 100px;
+}
+
+.imagee-liffey{
+    background: url(../images/liffey.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 100px;
+    height: 100px;
+}
