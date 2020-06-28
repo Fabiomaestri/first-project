@@ -36,7 +36,7 @@ li{
 }
 
 .second-background-image{
-    background: url(../images/students.png) no-repeat center center fixed; 
+    background: url(../images/students.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -47,7 +47,41 @@ li{
     margin: 0;
 }
 
-/*------------------------------- Image background*/
+.school-background-image{
+    background: url(../images/369901.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    min-height: 300px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.university-background-image{
+    background: url(../images/129.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    min-height: 300px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.partner-img-1{
+    background: url(../images/ise.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+
+    min-height: 100px;
+}
+
+/*------------------------------- Features image background
 .partner-img-1{
     background: url(../images/ise.png) no-repeat center center; 
     -webkit-background-size: cover;
@@ -81,7 +115,7 @@ li{
 
     max-width: 50px;
     max-height: 50px;
-}
+}*/
 
 /*
 .feature-section{
