@@ -127,3 +127,7 @@ li{
     background-color: #f8f8f8;
     padding-top: 100px;
 }
+
+.school-menu{
+    align-items: flex-end
+}
