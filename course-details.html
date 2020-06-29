@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <script src="https://kit.fontawesome.com/2c8fb88f95.js" crossorigin="anonymous"></script>
-    <title>School</title>
+    <title>Course Details</title>
 </head>
 <body>
     <!--------------------------------------------------------- NavBar-->
@@ -23,19 +24,29 @@
                     <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="schools.html">Schools</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="school-profile.html">School profile</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="course.html">courses <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="universities.html">Universities</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Schools
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="nav-link" href="school-profile.html">Courses</a>
+                        <a class="nav-link" href="course-details.html">Course details</a>
+                        <a class="nav-link" href="schools.html">List</a>
+                        <a class="nav-link" href="school-profile.html">Profile</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Universities
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="nav-link" href="school-profile.html">Courses</a>
+                        <a class="nav-link" href="course-details.html">Course details</a>
+                        <a class="nav-link" href="universities.html">List</a>
+                        <a class="nav-link" href="school-profile.html">Profile</a>
+                    </div>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -117,7 +128,6 @@
                 </div>
                 <div class="col-md-8">
                     <nav class="nav nav-pills nav-fill">
-                        <a class="nav-item nav-link" href="school-overview.html">Overview</a>
                         <a class="nav-item nav-link active" href="course.html">Courses</a>
                         <a class="nav-item nav-link" href="feature.html">Feature</a>
                         <a class="nav-item nav-link" href="location.html">Location</a>
