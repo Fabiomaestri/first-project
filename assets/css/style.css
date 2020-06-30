@@ -24,19 +24,64 @@ li{
 
 /*------------------------------- Image background*/
 .first-background-image{
+    height: 100vh;
     background: url(../images/1.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    min-height: 800px;
-    max-width: 100%;
-    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.call-out-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    Height:100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+/*jumbotron*/
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color:white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead{
+    color: #d0d0d0;
+    margin: 35px 0px;
 }
 
 .second-background-image{
     background: url(../images/students.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    min-height: 500px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.third-background-image{
+    background: url(../images/16027.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -117,17 +162,30 @@ li{
     max-height: 50px;
 }*/
 
-/*
 .feature-section{
-    margin-top: 200px;
-    margin-bottom: 50px;
-}*/
-
+    margin-top: 90px;
+}
+/*Footer section*/
 .footer-section{
-    background-color: #f8f8f8;
+    background-color: #043353;
     padding-top: 100px;
+}
+
+.footer-section a{
+    color: #faf8f0;
+}
+
+.footer-section h5{
+    color: #d3dde6;
+}
+
+/*button*/
+.btn-outline-success {
 }
 
 .school-menu{
     align-items: flex-end
+}
+.rounded-circle{
+    max-height: 80px;
 }
