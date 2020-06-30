@@ -173,13 +173,20 @@ li{
 
 .footer-section a{
     color: #faf8f0;
+    font-weight: 400;
 }
 
 .footer-section h5{
     color: #d3dde6;
+    text-transform: uppercase;
 }
 
-/*button*/
+.form-control{
+    margin-bottom: 10px;
+    background-color: #043353;
+}
+
+/*form*/
 .btn-outline-success {
 }
 
@@ -187,5 +194,10 @@ li{
     align-items: flex-end
 }
 .rounded-circle{
-    max-height: 80px;
+    max-height: 90px;
+}
+
+.col-md-4{
+    padding-right: 15px;
+    padding-left: 15px;
 }
