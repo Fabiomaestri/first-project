@@ -4,8 +4,9 @@ body{
     font-family: "popins", sans-serif;
 }
 
-p{
+p, li{
     font-family: "raleway", sans-serif;
+    list-style-type: none;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -16,10 +17,6 @@ h1, h2{
     font-family: "popins", sans-serif;
     font-weight: 900;
     font-size: 65px;
-}
-
-li{
-    font-family: "raleway", sans-serif;
 }
 
 /*------------------------------- Image background*/
@@ -68,6 +65,12 @@ li{
     margin: 35px 0px;
 }
 
+/*Our partners logos*/
+.our-partners-logos{
+    justify-content: center;
+
+}
+
 .second-background-image{
     background: url(../images/students.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -104,16 +107,6 @@ li{
     margin: 0;
 }
 
-.university-background-image{
-    background: url(../images/129.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    min-height: 300px;
-    max-width: 100%;
-    margin: 0;
 }
 
 .partner-img-1{
@@ -174,6 +167,7 @@ li{
 .footer-section a{
     color: #faf8f0;
     font-weight: 400;
+    list-style-type: none;
 }
 
 .footer-section h5{
@@ -187,7 +181,14 @@ li{
 }
 
 /*form*/
-.btn-outline-success {
+.btfooter {
+    color: #fff;
+    background-color: #d020cb;
+    border-color: #2474bb;
+}
+
+.btn-secondary{
+    background-color: #043353;
 }
 
 .school-menu{
@@ -200,4 +201,59 @@ li{
 .col-md-4{
     padding-right: 15px;
     padding-left: 15px;
+}
+
+/*--------------------------------------------------schools.hmtl*/
+/*filter form*/
+.university-background-image{
+    background: url(../images/129.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    min-height: 300px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.filter-form{
+    background-color: #ffffff; 
+    padding: 30px;;
+}
+
+/*School cards*/
+.card{
+    width: max-content;
+    justify-content: space-between;
+    border: none;
+}
+
+.filter-card-section{
+    margin-top: 15px;
+}
+
+.form-control-range{
+    background-color: #043353;
+}
+
+.card-{
+    margin-right: 15px;
+}
+
+/*Courses.html*/
+.ise-info{
+    margin-left:10px;
+}
+
+.fjsdf{
+    margin-right: 20px;
+}
+
+.review-form{
+    margin-bottom: 20px;
+}
+
+.menuteste{
+    border: solid;
 }
