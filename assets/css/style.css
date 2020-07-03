@@ -50,14 +50,18 @@ h1, h2{
 }
 
 /*jumbotron*/
-.jumbotron{
-    background-color: transparent;
+div .jumbotron{
+    background: transparent;
+    position: relative;
 }
 
 .jumbotron-header {
-    color:white;
-    font-weight: bold;
-    margin-bottom: 30px;
+}
+
+.display-4 {
+    color:rgb(255, 255, 255);
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .jumbotron .lead{
@@ -67,8 +71,7 @@ h1, h2{
 
 /*Our partners logos*/
 .our-partners-logos{
-    justify-content: center;
-
+    min-height: 100%;
 }
 
 .second-background-image{
@@ -105,8 +108,6 @@ h1, h2{
     min-height: 300px;
     max-width: 100%;
     margin: 0;
-}
-
 }
 
 .partner-img-1{
@@ -158,6 +159,11 @@ h1, h2{
 .feature-section{
     margin-top: 90px;
 }
+
+.last-feature-section{
+    margin-bottom: 90px;
+}
+
 /*Footer section*/
 .footer-section{
     background-color: #043353;
@@ -201,6 +207,13 @@ h1, h2{
 .col-md-4{
     padding-right: 15px;
     padding-left: 15px;
+}
+
+/*--------------------------------------------------index.hmtl*/
+/*Quotes section*/
+
+.quote-sections{
+    vertical-align: middle;
 }
 
 /*--------------------------------------------------schools.hmtl*/
