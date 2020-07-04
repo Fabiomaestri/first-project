@@ -18,6 +18,13 @@ h1, h2{
     font-weight: 900;
     font-size: 65px;
 }
+/*------------------------------- Image background*/
+/*Nav Bar*/
+img{
+    background-size: cover;
+    width: 50%;
+    height: auto;
+}
 
 /*------------------------------- Image background*/
 .first-background-image{
@@ -59,7 +66,7 @@ div .jumbotron{
 }
 
 .display-4 {
-    color:rgb(255, 255, 255);
+    color:#faf8f0;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -155,9 +162,14 @@ div .jumbotron{
     max-width: 50px;
     max-height: 50px;
 }*/
-
 .feature-section{
-    margin-top: 90px;
+    background-color: rgb(0, 45, 88);
+    color: #faf8f0;
+}
+
+.sc-module{
+    background-color: #faf8f0;
+    color: rgb(0, 45, 88);
 }
 
 .last-feature-section{
@@ -166,7 +178,7 @@ div .jumbotron{
 
 /*Footer section*/
 .footer-section{
-    background-color: #043353;
+    background: linear-gradient(90deg, rgb(54,32,99) 0%, rgb(96,45,144) 45%, rgb(182, 25, 158) 100%);
     padding-top: 100px;
 }
 
@@ -177,24 +189,19 @@ div .jumbotron{
 }
 
 .footer-section h5{
-    color: #d3dde6;
+    color: #faf8f0;
     text-transform: uppercase;
 }
 
 .form-control{
     margin-bottom: 10px;
-    background-color: #043353;
+    background-color: rgb(0, 45, 88);
 }
 
 /*form*/
 .btfooter {
-    color: #fff;
-    background-color: #d020cb;
-    border-color: #2474bb;
-}
-
-.btn-secondary{
-    background-color: #043353;
+    color: #faf8f0;
+    border-color: rgb(0, 45, 88);
 }
 
 .school-menu{
@@ -213,6 +220,11 @@ div .jumbotron{
 /*Quotes section*/
 
 .quote-sections{
+    vertical-align: middle;
+}
+
+.last-modules{
+    min-height: 500px;
     vertical-align: middle;
 }
 
@@ -247,7 +259,7 @@ div .jumbotron{
 }
 
 .form-control-range{
-    background-color: #043353;
+    background-color: #007bff;
 }
 
 .card-{
