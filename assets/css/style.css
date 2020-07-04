@@ -2,6 +2,7 @@
 
 body{
     font-family: "popins", sans-serif;
+    position: relative;
 }
 
 p, li{
@@ -13,14 +14,19 @@ h1, h2, h3, h4, h5, h6{
     font-family: "poppins", sans-serif;
 }
 
-h1, h2{
-    font-family: "popins", sans-serif;
-    font-weight: 900;
-    font-size: 65px;
+h1{
+    font-size: 60px !important;
+    font-weight: 900 !important;
 }
+
+h2{
+    font-size: 60px !important;
+    font-weight: 900 !important;
+}
+
 /*------------------------------- Image background*/
 /*Nav Bar*/
-img{
+.img-logo{
     background-size: cover;
     width: 50%;
     height: auto;
@@ -78,7 +84,12 @@ div .jumbotron{
 
 /*Our partners logos*/
 .our-partners-logos{
-    min-height: 100%;
+    min-height: 120px;
+}
+
+.img-partners{
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .second-background-image{
@@ -162,9 +173,44 @@ div .jumbotron{
     max-width: 50px;
     max-height: 50px;
 }*/
+
+.bc-01{
+    background-color: #faf8f0;
+}
+
+.pall-01{
+    padding:25px !important;
+}
+
+.first-feature-section{
+
+
+}
+
+.second-feature-section{}
+
+.third-feature-section{}
+
+.fourth-feature-section{}
+
+.fifth-feature-section{}
+
 .feature-section{
     background-color: rgb(0, 45, 88);
+    /* background: linear-gradient(90deg, rgb(54,32,99) 0%, rgb(96,45,144) 45%, rgb(182, 25, 158) 100%);*/
     color: #faf8f0;
+}
+.water-mark{
+    opacity: 5%;
+    position: absolute;
+}
+
+.pd-feature-section{
+    padding: 100px;
+}
+
+pd-feature-section-1{
+    padding-bottom: 100px;
 }
 
 .sc-module{
@@ -178,7 +224,8 @@ div .jumbotron{
 
 /*Footer section*/
 .footer-section{
-    background: linear-gradient(90deg, rgb(54,32,99) 0%, rgb(96,45,144) 45%, rgb(182, 25, 158) 100%);
+    background-color: rgb(0, 45, 88);
+    /*background: linear-gradient(90deg, rgb(54,32,99) 0%, rgb(96,45,144) 45%, rgb(182, 25, 158) 100%);*/
     padding-top: 100px;
 }
 
@@ -216,6 +263,11 @@ div .jumbotron{
     padding-left: 15px;
 }
 
+.ptb-02{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 /*--------------------------------------------------index.hmtl*/
 /*Quotes section*/
 
@@ -225,11 +277,22 @@ div .jumbotron{
 
 .last-modules{
     min-height: 500px;
-    vertical-align: middle;
 }
 
 /*--------------------------------------------------schools.hmtl*/
 /*filter form*/
+
+.pb-01{
+    padding-bottom: 25px;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  [class="card"] {
+    width: 100%!important;
+  }
+}
+
 .university-background-image{
     background: url(../images/129.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -282,3 +345,10 @@ div .jumbotron{
 .menuteste{
     border: solid;
 }
+
+/*--------------------------------------------------about.hmtl*/
+.pbt-01{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
