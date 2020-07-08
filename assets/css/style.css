@@ -338,6 +338,12 @@ display: none!important;
 }
 }
 
+@media (max-width: 768px) {
+.water-mark {
+display: none;
+}
+}
+
 .list-group{
     width: 100%;
     margin: 0;
