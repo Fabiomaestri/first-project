@@ -223,10 +223,15 @@ div .jumbotron{
 /*fifth section*/
 .fifth-feature-section{}
 
+@media (max-width: 768px) {
+    .water-mark{
+        display: none
+    }
+}
 
 .water-mark{
     opacity: 5%;
-    
+    position: absolute;
 }
 
 .pd-feature-section{
@@ -327,10 +332,26 @@ pd-feature-section-1{
 }
 
 /* For mobile phones: */
-@media only screen and (min-width: 768px) {
-  [class="card"] {
-    width: 100%!important;
-  }
+@media (max-width: 768px) {
+#submenu {
+display: none!important;
+}
+}
+
+.list-group{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.list-group-horizontal{
+    text-align: center;
 }
 
 .university-background-image{
