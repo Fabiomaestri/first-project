@@ -120,39 +120,57 @@
                         <a class="nav-item nav-link" href="location.html">Location</a>
                     </nav>-->
                     <div class="row">
-                        <div class="col-12">
-                            <nav class="navbar fixed-bottom navbar-light bg-light">
-                            <div class="list-group list-group-horizontal" id="list-tab submenu" role="tablist">
-                                <a class="list-group-item list-group-item-action active" id="list-overview-list" data-toggle="list" href="#list-overview" role="tab" aria-controls="overview"><i class="fas fa-clipboard-list"></i></a>
-                                <a class="list-group-item list-group-item-action" id="list-courses-list" data-toggle="list" href="#list-courses" role="tab" aria-controls="courses"><i class="fas fa-graduation-cap"></i> <span class="badge badge-warning">14</span></a>
-                                <a class="list-group-item list-group-item-action" id="list-quotation-list" data-toggle="list" href="#list-quotation" role="tab" aria-controls="quotation"><i class="fas fa-money-check-alt"></i>
-                                <a class="list-group-item list-group-item-action" id="list-feature-list" data-toggle="list" href="#list-feature" role="tab" aria-controls="feature"><i class="fas fa-tasks"></i> <span class="badge badge-warning">12</span></a>
-                                <a class="list-group-item list-group-item-action" id="list-location-list" data-toggle="list" href="#list-location" role="tab" aria-controls="location"><i class="fas fa-map-marked-alt"></i></a>
+                            <div id="list-example" class="list-group list-group-horizontal fixed">
+                                <a class="list-group-item list-group-item-action" href="#list-about"><i class="fas fa-users"></i></a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-2"><i class="fas fa-graduation-cap"></i></a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-3"><i class="fas fa-money-check-alt"></i></a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-4"><i class="fas fa-tasks"></i></a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-5"><i class="fas fa-map-marked-alt"></i></a>
                             </div>
-                            </nav>
-                            <div class="list-group list-group-horizontal" id="list-tab submenu1" role="tablist">
-                                <a class="list-group-item list-group-item-action active" id="list-overview-list" data-toggle="list" href="#list-overview" role="tab" aria-controls="overview"><i class="fas fa-clipboard-list"></i></a>
-                                <a class="list-group-item list-group-item-action" id="list-courses-list" data-toggle="list" href="#list-courses" role="tab" aria-controls="courses"><i class="fas fa-graduation-cap"></i> <span class="badge badge-warning">14</span></a>
-                                <a class="list-group-item list-group-item-action" id="list-quotation-list" data-toggle="list" href="#list-quotation" role="tab" aria-controls="quotation"><i class="fas fa-money-check-alt"></i>
-                                <a class="list-group-item list-group-item-action" id="list-feature-list" data-toggle="list" href="#list-feature" role="tab" aria-controls="feature"><i class="fas fa-tasks"></i> <span class="badge badge-warning">12</span></a>
-                                <a class="list-group-item list-group-item-action" id="list-location-list" data-toggle="list" href="#list-location" role="tab" aria-controls="location"><i class="fas fa-map-marked-alt"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="list-overview" role="tabpanel" aria-labelledby="list-overview-list">
-                                <div class="col- mt-5">
-                                    <h3>About</h3>
-                                    <hr>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias natus expedita velit corporis perspiciatis, ut at tempora veritatis culpa dignissimos nesciunt, quae deleniti rem! Consectetur, obcaecati quo! Quia, est!</p>
-                                    <div class="row mt-5">
-                                        <iframe width="966" height="543" src="https://www.youtube.com/embed/VqQ33UNmyfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                </div>  
-                            </div>
-                            <div class="tab-pane fade" id="list-courses" role="tabpanel" aria-labelledby="list-courses-list">
+                        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                            <!--<h4 id="list-about">About</h4>
+                            <p>...</p>-->
+                            <!--<h4 id="list-item-2">Item 2</h4>
+                            <p>...</p>-->
+                            <!--<h4 id="list-item-3">Item 3</h4>
+                            <p>...</p>
+                            <h4 id="list-item-4">Item 4</h4>
+                            <p>...</p>
+                            <h4 id="list-item-5">Item 5</h4>
+                            <p>...</p>-->
+                            
+                            <!--<div class="col-12">
+                                <nav class="navbar fixed-bottom navbar-light bg-light">
+                                <div class="list-group list-group-horizontal" id="list-tab submenu" role="tablist">
+                                    <a class="list-group-item list-group-item-action active" id="list-about-list" data-toggle="list" href="#list-about" role="tab" aria-controls="about"><i class="fas fa-users"></i></a>
+                                    <a class="list-group-item list-group-item-action" id="list-courses-list" data-toggle="list" href="#list-courses" role="tab" aria-controls="courses"><i class="fas fa-graduation-cap"></i> <span class="badge badge-warning">14</span></a>
+                                    <a class="list-group-item list-group-item-action" id="list-quotation-list" data-toggle="list" href="#list-quotation" role="tab" aria-controls="quotation"><i class="fas fa-money-check-alt"></i>
+                                    <a class="list-group-item list-group-item-action" id="list-feature-list" data-toggle="list" href="#list-feature" role="tab" aria-controls="feature"><i class="fas fa-tasks"></i> <span class="badge badge-warning">12</span></a>
+                                    <a class="list-group-item list-group-item-action" id="list-location-list" data-toggle="list" href="#list-location" role="tab" aria-controls="location"><i class="fas fa-map-marked-alt"></i></a>
+                                </div>
+                                </nav>
+                                <div class="list-group list-group-horizontal" id="list-tab submenu1" role="tablist">
+                                    <a class="list-group-item list-group-item-action active" id="list-about-list" data-toggle="list" href="#list-about" role="tab" aria-controls="about"><i class="fas fa-users"></i></a>
+                                    <a class="list-group-item list-group-item-action" id="list-courses-list" data-toggle="list" href="#list-courses" role="tab" aria-controls="courses"><i class="fas fa-graduation-cap"></i> <span class="badge badge-warning">14</span></a>
+                                    <a class="list-group-item list-group-item-action" id="list-quotation-list" data-toggle="list" href="#list-quotation" role="tab" aria-controls="quotation"><i class="fas fa-money-check-alt"></i>
+                                    <a class="list-group-item list-group-item-action" id="list-feature-list" data-toggle="list" href="#list-feature" role="tab" aria-controls="feature"><i class="fas fa-tasks"></i> <span class="badge badge-warning">12</span></a>
+                                    <a class="list-group-item list-group-item-action" id="list-location-list" data-toggle="list" href="#list-location" role="tab" aria-controls="location"><i class="fas fa-map-marked-alt"></i></a>
+                                </div>
+                            </div>-->
+                            <div class="col-12">
+                                <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-overview" role="tabpanel" aria-labelledby="list-overview-list">
+                                    <div class="col- mt-5">
+                                        <h3 id="list-about">About</h3>
+                                        <hr>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias natus expedita velit corporis perspiciatis, ut at tempora veritatis culpa dignissimos nesciunt, quae deleniti rem! Consectetur, obcaecati quo! Quia, est!</p>
+                                        <div class="row mt-5">
+                                            <iframe width="966" height="543" src="https://www.youtube.com/embed/VqQ33UNmyfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </div>  
+                                </div>
                                 <div class="col-md-12 mb-5">
-                                    <h3 class="pt-01">Courses</h3>
+                                    <h3 class="pt-01" id="list-item-2">Courses</h3>
                                     <hr>
                                     <div class="row d-flex justify-content-end mt-5">
                                         <div class="card card- shadow-lg p-0 mb-3 bg-white rounded" style="width: 18rem;">
@@ -205,11 +223,9 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="list-quotation" role="tabpanel" aria-labelledby="list-quotation-list">
                                 <div class="row">
                                     <div class="col-md-12 mt-5">
-                                        <h3>How to aplly</h3>
+                                        <h3 id="list-item-3">How to aplly</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, soluta iste. Qui libero commodi rerum adipisci reiciendis, maxime nihil temporibus non quae animi officiis nulla, fuga architecto quasi, a ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit atque vel minima officiis natus esse error neque cum alias facere recusandae commodi amet enim nihil repellat, aliquid suscipit, ipsum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore itaque a vitae necessitatibus, placeat illum deserunt praesentium voluptatem eos, delectus repellat accusantium non amet, quasi voluptate! Quaerat similique sit voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae alias ipsam nostrum dicta corporis necessitatibus ut sed voluptatem quis magni, vero ab deleniti debitis maxime ad, culpa fugit adipisci.</p>
                                     </div>
                                     <div class="col-md-6 mt-5">
@@ -230,11 +246,9 @@
                                         </form>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="list-feature" role="tabpanel" aria-labelledby="list-feature-list">
                                 <div class="col-md-12 mb-5">
                                     <div class="feature">
-                                        <h3 class="pt-01"> Features</h3>
+                                        <h3 class="pt-01" id="list-item-4"> Features</h3>
                                         <hr>
                                         <div class="row">
                                             <div class="md-1 text-center pall-01 feature-icon">
@@ -288,11 +302,9 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="list-location" role="tabpanel" aria-labelledby="list-location-list">
                                 <div class="col-md-12">
                                     <div class="col-md-12">
-                                        <h3 class="pt-01">Location</h3>
+                                        <h3 class="pt-01" id="list-item-5">Location</h3>
                                         <hr>
                                     </div>
                                     <div class="col-md-12 mb-5">
