@@ -3,11 +3,13 @@
 body{
     font-family: "popins", sans-serif;
     position: relative;
+    color: rgb(0, 45, 88);
 }
 
 p, li{
     font-family: "raleway", sans-serif;
     list-style-type: none;
+    color: rgb(0, 45, 88);
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -22,6 +24,21 @@ h1{
 h2{
     font-size: 60px !important;
     font-weight: 900 !important;
+    color: rgb(0, 45, 88);
+}
+
+h3{
+    color: rgb(0, 45, 88);
+    font-size: 40px !important;
+    font-weight: 900 !important;
+}
+
+h5, h6{
+    color: rgb(0, 45, 88);
+}
+
+.feature-icon i{
+    color: rgb(0, 45, 88);
 }
 
 /*------------------------------- Image background*/
@@ -32,10 +49,14 @@ h2{
     height: auto;
 }
 
+.bg-light{
+    background-color: transparent !important;
+}
+
 /*------------------------------- Image background*/
 .first-background-image{
     height: 100vh;
-    background: url(../images/1.jpg) no-repeat center center fixed; 
+    background: url(../images/1.jpg) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -205,7 +226,7 @@ div .jumbotron{
 
 .water-mark{
     opacity: 5%;
-    position: absolute;
+    
 }
 
 .pd-feature-section{
@@ -273,6 +294,10 @@ pd-feature-section-1{
 
 /*--------------------------------------------------index.hmtl*/
 /*Quotes section*/
+
+.color-01{
+    color: #faf8f0;
+}
 
 .quote-sections{
     vertical-align: middle;
@@ -367,3 +392,8 @@ pd-feature-section-1{
     padding-top: 100px;
 }
 
+/*--------------------------------------------------school-profile.hmtl*/
+
+.container-info{
+    border-color: 1px solid teal;
+}
