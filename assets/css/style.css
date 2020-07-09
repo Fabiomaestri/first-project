@@ -312,6 +312,8 @@ pd-feature-section-1{
     min-height: 500px;
 }
 
+/*Google maps*/
+
 /*--------------------------------------------------schools.hmtl*/
 /*filter form*/
 
@@ -333,16 +335,24 @@ pd-feature-section-1{
 
 /* For mobile phones: */
 @media (max-width: 768px) {
-#submenu {
-display: none!important;
-}
+    #submenu {
+    display: none!important;
+    }
 }
 
 @media (max-width: 768px) {
-.water-mark {
-display: none;
+    .water-mark {
+    display: none;
+    }
+
+    .col-md- {
+        padding-right: 0;
+        padding-left: 0;
+        width: unset;
+    }
 }
-}
+
+
 
 .list-group{
     width: 100%;
