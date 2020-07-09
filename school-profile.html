@@ -17,7 +17,7 @@
     <script src="https://kit.fontawesome.com/2c8fb88f95.js" crossorigin="anonymous"></script>
     <title>School Overview</title>
 </head>
-<body>
+<body data-spy="scroll">
     <!--------------------------------------------------------- NavBar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html"><img src="assets/images/upedia-logo-transparent.png" alt="CSGO Howl" style="float:left" class="img-logo"></a>
@@ -45,10 +45,10 @@
     <section>
         <div class="container-fluid university-background-image"></div>
     </section>
-    <section>
-        <div class="container-fluid mt-5">
-            <div class="row container-info">
-                <div class="col-sm-4 school-menu mt-4 mb-5">
+    <section class="school-section mt-5">
+        <div class="container-fluid">
+            <div class="row filter-card-section">
+                <div class="col-md-4 school-menu mt-4 mb-5">
                     <div class="row">
                         <img src="assets/images/ise.png" alt="..." class="rounded-circle">
                     </div>
@@ -61,7 +61,6 @@
                     <div>
                         <p>Founded:&nbsp<b>1998</b></p>
                     </div>
-                    
                     <div>
                         <p>Number of students:&nbsp<b>562</b></p>
                     </div>
@@ -107,173 +106,165 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-8 mb-5">
-                    <div>
-                        <div id="list-example" class="list-group list-group-horizontal fixed-bottom">
-                            <a class="list-group-item list-group-item-action" href="#list-about"><i class="fas fa-users"></i></a>
-                            <a class="list-group-item list-group-item-action" href="#list-item-2"><i class="fas fa-graduation-cap"></i> <span class="badge badge-warning">14</span></a>
-                            <a class="list-group-item list-group-item-action" href="#list-item-3"><i class="fas fa-money-check-alt"></i></a>
-                            <a class="list-group-item list-group-item-action" href="#list-item-4"><i class="fas fa-tasks"></i> <span class="badge badge-warning">12</span></a>
-                            <a class="list-group-item list-group-item-action" href="#list-item-5"><i class="fas fa-map-marked-alt"></i></a>
+                <div class="col-md-8">
+                    <div id="list-example" class="list-group list-group-horizontal fixed-bottom bnb-mobile">
+                        <a class="list-group-item list-group-item-action" href="#list-item-1"><i class="fas fa-users"></i></a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2"><i class="fas fa-graduation-cap"></i> <span class="badge badge-warning">14</span></a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3"><i class="fas fa-money-check-alt"></i></a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4"><i class="fas fa-tasks"></i> <span class="badge badge-warning">12</span></a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-5"><i class="fas fa-map-marked-alt"></i></a>
+                    </div>
+                    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                        <div class="container-fluid mt-5">
+                            <h3 class="pt-01" id="list-item-1">About</h3>
+                            <hr class=" mt-5">
+                            <div class="row">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias natus expedita velit corporis perspiciatis, ut at tempora veritatis culpa dignissimos nesciunt, quae deleniti rem! Consectetur, obcaecati quo! Quia, est!</p>
+                                <iframe width="966" height="543" src="https://www.youtube.com/embed/VqQ33UNmyfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                         </div>
-                        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-                            <div class="col-">
-                                <div class="tab-content" id="nav-tabContent">
-                                    <div class="tab-pane fade show active" id="list-overview" role="tabpanel" aria-labelledby="list-overview-list">
-                                        <div class="col mt-5">
-                                            <h3 class="pt-01" id="list-about">About</h3>
-                                            <hr>
-                                            <div class="row mt-5">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias natus expedita velit corporis perspiciatis, ut at tempora veritatis culpa dignissimos nesciunt, quae deleniti rem! Consectetur, obcaecati quo! Quia, est!</p>
-                                                <iframe width="966" height="543" src="https://www.youtube.com/embed/VqQ33UNmyfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                <div class="col mb-5">
-                                    <h3 class="pt-01" id="list-item-2">Courses</h3>
-                                    <hr>
-                                    <div class="row mt-5 d-flex justify-content-around">
-                                        <div class=" col-md-4 card card- shadow-lg p-0 mb-3 bg-white rounded">
-                                            <img src="assets/images/card-image-general-english.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">General English</h5>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="course-overview.html" class="btn btn-primary">Book now!</a>
-                                            </div>
-                                        </div>
-                                        <div class=" col-md-4 card card- shadow-lg p-0 mb-3 bg-white rounded">
-                                            <img src="assets/images/card-image-business-english.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Business English&nbsp<span class="badge badge-warning">NEW!</span></h5>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="course-overview.html" class="btn btn-primary">Book now!</a>
-                                            </div>
-                                        </div>
-                                        <div class=" col-md-4 card card- shadow-lg p-0 mb-3 bg-white rounded">
-                                            <img src="assets/images/card-image-ielts-preparation.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">IELTS Preparation</h5>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="course-overview.html" class="btn btn-primary">Book now!</a>
-                                            </div>
-                                        </div>
-                                        <div class=" col-md-4 card card- shadow-lg p-0 mb-3 bg-white rounded">
-                                            <img src="assets/images/card-image-e-learning.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Celta Course&nbsp<span class="badge badge-warning">NEW!</span></h5>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="course-overview.html" class="btn btn-primary">Book now!</a>
-                                            </div>
-                                        </div>
-                                        <div class=" col-md-4 card card- shadow-lg p-0 mb-3 bg-white rounded">
-                                            <img src="assets/images/card-image-cambridge-preparation.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Cambridge Preparation</h5>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="course-overview.html" class="btn btn-primary">Book now!</a>
-                                            </div>
-                                        </div>
-                                        <div class=" col-md-4 card card- shadow-lg p-0 mb-3 bg-white rounded">
-                                            <img src="assets/images/card-image-general-english-plus.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">General English&nbsp<span class="badge badge-danger">PLUS</span></h5>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="course-overview.html" class="btn btn-primary">Book now!</a>
-                                            </div>
-                                        </div>
+                        <div class="container-fluid b-1">
+                            <h3 class="pt-01" id="list-item-2">Courses</h3>
+                            <hr class=" mt-5">
+                            <div class="row d-flex justify-content-around">
+                                <div class="card shadow-lg p-0 mb-3 bg-white rounded card-resized">
+                                    <img src="assets/images/card-image-general-english.png" class="card-img-top" alt="ise-school-logo">
+                                    <div class="card-body">
+                                        <h5 class="card-title">General English</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="school-profile.html" class="btn btn-primary">Book now!</a>
                                     </div>
                                 </div>
-                                <div class="col">
-                                    <h3 class="pt-01" id="list-item-3">How to aplly</h3>
-                                    <hr>
-                                    <div class="row mt-5">
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, soluta iste. Qui libero commodi rerum adipisci reiciendis, maxime nihil temporibus non quae animi officiis nulla, fuga architecto quasi, a ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit atque vel minima officiis natus esse error neque cum alias facere recusandae commodi amet enim nihil repellat, aliquid suscipit, ipsum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore itaque a vitae necessitatibus, placeat illum deserunt praesentium voluptatem eos, delectus repellat accusantium non amet, quasi voluptate! Quaerat similique sit voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae alias ipsam nostrum dicta corporis necessitatibus ut sed voluptatem quis magni, vero ab deleniti debitis maxime ad, culpa fugit adipisci.</p>
-                                    </div>
-                                    <div class="col-md-6 mt-5">
-                                        <p>Type:&nbsp<b>General Englis</b></p>
-                                        <p>Time:&nbsp<b>Morning</b></p>
-                                        <p>Length:&nbsp<b>25+8 weeks</b></p>
-                                        <p>Application:&nbsp<b>€200</b></p>
-                                        <p>Tuition:&nbsp<b>€2700</b></p>
-                                        <p>Exam:&nbsp<b>€200</b></p>
-                                        <p>Living cost:&nbsp<b>€3600</b></p>
-                                        <p>Star date:&nbsp<b>Every Monday</b></p>
-                                    </div>
-                                    <div class="col-md-6 mt-5">
-                                        <h6><strong>Send a quote to your email and get 10% dicount</strong></h6>
-                                        <form>
-                                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
-                                            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Get a Quote!</button>
-                                        </form>
+                                <div class="card shadow-lg p-0 mb-3 bg-white rounded card-resized">
+                                    <img src="assets/images/card-image-business-english.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Business English&nbsp<span class="badge badge-warning">NEW!</span></h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="school-profile.html" class="btn btn-primary">Book now!</a>
                                     </div>
                                 </div>
-                                <div class="col mb-5">
-                                    <div class="feature">
-                                        <h3 class="pt-01" id="list-item-4">Features</h3>
-                                        <hr>
-                                        <div class="row justify-content-center">
-                                            <div class="md-1 sm-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-map-marked-alt"></i>
-                                                <p>Excelent location</p>
-                                            </div>
-                                            <div class="md-1 sm-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-chalkboard-teacher"></i>
-                                                <p>Tutor</p>
-                                            </div>
-                                            <div class="md-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-hiking"></i>
-                                                <p>Extra activities</p>
-                                            </div>
-                                            <div class="md-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-chalkboard"></i>
-                                                <p>Interactive Board</p>
-                                            </div>
-                                            <div class="md-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-graduation-cap"></i>
-                                                <p>Native teachers</p>
-                                            </div>
-                                            <div class="md-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-globe-americas"></i>
-                                                <p>Good mix</p>
-                                            </div>
-                                            <div class="md-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-piggy-bank"></i>
-                                                <p>Vallue for money</p>
-                                            </div>
-                                            <div class="md-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-gift"></i>
-                                                <p>New methodology</p>
-                                            </div>
-                                            <div class="md-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-user-graduate"></i>
-                                                <p>15 students per class</p>
-                                            </div>
-                                            <div class="md-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-info"></i>
-                                                <p>Support</p>
-                                            </div>
-                                            <div class="md-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-mail-bulk"></i>
-                                                <p>Acreditated</p>
-                                            </div>
-                                            <div class="md-1 text-center pall-01 feature-icon">
-                                                <i class="fas fa-briefcase"></i>
-                                                <p>Job Club</p>
-                                            </div>
-                                        </div>
+                                <div class="card shadow-lg p-0 mb-3 bg-white rounded card-resized">
+                                    <img src="assets/images/card-image-ielts-preparation.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">IELTS Preparation</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="school-profile.html" class="btn btn-primary">Book now!</a>
                                     </div>
                                 </div>
-                                <div class="col">
-                                    <h3 class="pt-01" id="list-item-5">Location</h3>
-                                    <hr>
-                                    <div class="col-md-12 mb-5">
-                                        <iframe class="pt-01 mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.625325208012!2d-6.262127184332462!3d53.34996288214169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e843bcdae89%3A0x6c26be32c16a69fc!2s1%20O&#39;Connell%20Street%20Upper%2C%20North%20City%2C%20Dublin%2C%20D01%20HR04!5e0!3m2!1sen!2sie!4v1593398689056!5m2!1sen!2sie" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                <div class="card shadow-lg p-0 mb-3 bg-white rounded card-resized">
+                                    <img src="assets/images/card-image-e-learning.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">E-learning&nbsp<span class="badge badge-warning">NEW!</span></h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="school-profile.html" class="btn btn-primary">Book now!</a>
+                                    </div>
+                                </div>
+                                <div class="card shadow-lg p-0 mb-3 bg-white rounded card-resized">
+                                    <img src="assets/images/card-image-cambridge-preparation.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cambridge Preparation</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="school-profile.html" class="btn btn-primary">Book now!</a>
+                                    </div>
+                                </div>
+                                <div class="card shadow-lg p-0 mb-3 bg-white rounded card-resized">
+                                    <img src="assets/images/card-image-general-english-plus.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">General English&nbsp<span class="badge badge-danger">PLUS</span></h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="school-profile.html" class="btn btn-primary">Book now!</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="container-fluid mb-5">
+                            <h3 class="pt-01" id="list-item-3">How to aplly</h3>
+                            <hr class=" mt-5">
+                            <div class="container">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, soluta iste. Qui libero commodi rerum adipisci reiciendis, maxime nihil temporibus non quae animi officiis nulla, fuga architecto quasi, a ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit atque vel minima officiis natus esse error neque cum alias facere recusandae commodi amet enim nihil repellat, aliquid suscipit, ipsum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore itaque a vitae necessitatibus, placeat illum deserunt praesentium voluptatem eos, delectus repellat accusantium non amet, quasi voluptate! Quaerat similique sit voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae alias ipsam nostrum dicta corporis necessitatibus ut sed voluptatem quis magni, vero ab deleniti debitis maxime ad, culpa fugit adipisci.</p>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <p>Type:&nbsp<b>General Englis</b></p>
+                                <p>Time:&nbsp<b>Morning</b></p>
+                                <p>Length:&nbsp<b>25+8 weeks</b></p>
+                                <p>Application:&nbsp<b>€200</b></p>
+                                <p>Tuition:&nbsp<b>€2700</b></p>
+                                <p>Exam:&nbsp<b>€200</b></p>
+                                <p>Living cost:&nbsp<b>€3600</b></p>
+                                <p>Star date:&nbsp<b>Every Monday</b></p>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <h6><strong>Send a quote to your email and get 10% dicount</strong></h6>
+                                <form>
+                                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Get a Quote!</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="container-fluid mb-5">
+                            <h3 class="pt-01" id="list-item-4">Features</h3>
+                            <hr class=" mt-5">
+                            <div class="row feature">
+                                <div class="row justify-content-center">
+                                    <div class="md-1 sm-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-map-marked-alt"></i>
+                                        <p>Excelent location</p>
+                                    </div>
+                                    <div class="md-1 sm-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <p>Tutor</p>
+                                    </div>
+                                    <div class="md-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-hiking"></i>
+                                        <p>Extra activities</p>
+                                    </div>
+                                    <div class="md-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-chalkboard"></i>
+                                        <p>Interactive Board</p>
+                                    </div>
+                                    <div class="md-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <p>Native teachers</p>
+                                    </div>
+                                    <div class="md-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-globe-americas"></i>
+                                        <p>Good mix</p>
+                                    </div>
+                                    <div class="md-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-piggy-bank"></i>
+                                        <p>Vallue for money</p>
+                                    </div>
+                                    <div class="md-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-gift"></i>
+                                        <p>New methodology</p>
+                                    </div>
+                                    <div class="md-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-user-graduate"></i>
+                                        <p>15 students per class</p>
+                                    </div>
+                                    <div class="md-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-info"></i>
+                                        <p>Support</p>
+                                    </div>
+                                    <div class="md-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-mail-bulk"></i>
+                                        <p>Acreditated</p>
+                                    </div>
+                                    <div class="md-1 text-center pall-01 feature-icon">
+                                        <i class="fas fa-briefcase"></i>
+                                        <p>Job Club</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <h3 class="pt-01" id="list-item-5">Location</h3>
+                            <hr class=" mt-5">
+                            <div class="row mb-5">
+                                <iframe class="pt-01 mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.625325208012!2d-6.262127184332462!3d53.34996288214169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e843bcdae89%3A0x6c26be32c16a69fc!2s1%20O&#39;Connell%20Street%20Upper%2C%20North%20City%2C%20Dublin%2C%20D01%20HR04!5e0!3m2!1sen!2sie!4v1593398689056!5m2!1sen!2sie" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -339,7 +330,7 @@
                 </div>
             </div>
             <!------------------------------------------------- Footer Social Networks-->
-            <div class="row ptb-02">
+            <div class="row mpb01">
                 <h5 class="upercase general-sub">Social:&nbsp</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">

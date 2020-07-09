@@ -227,6 +227,9 @@ div .jumbotron{
     .water-mark{
         display: none
     }
+    .mpb01{
+        padding-bottom: 100px;
+    }
 }
 
 .water-mark{
@@ -338,11 +341,25 @@ pd-feature-section-1{
     #submenu {
     display: none!important;
     }
+    .bnb-mobile{
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px){
+    .card-resized{
+        width: 18rem!important;
+    }
 }
 
 @media (max-width: 768px) {
     .water-mark {
     display: none;
+    }
+
+    .bnb-mobile{
+        display: none;
     }
 
     .col-md- {
