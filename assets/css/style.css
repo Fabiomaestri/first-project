@@ -87,6 +87,7 @@ h5, h6{
 div .jumbotron{
     background: rgb(154, 34, 190);
     position: relative;
+    left: -15px;
 }
 
 div .jumb{
@@ -95,6 +96,7 @@ div .jumb{
 div .jumb-01{
     color: rgb(154, 34, 190);
     background: #faf8f0;
+    left: -700px;
 }
 
 .display-4 {
