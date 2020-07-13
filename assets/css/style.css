@@ -235,19 +235,23 @@ pd-feature-section-1{
 }
 
 .footer-section a{
-    color: #faf8f0;
+    color: #faf8f0c7;
     font-weight: 400;
     list-style-type: none;
 }
 
 .footer-section h5{
     color: #faf8f0;
-    text-transform: uppercase;
 }
 
 .form-control{
     margin-bottom: 10px;
     background-color: rgb(0, 45, 88);
+    font-family: "raleway", sans-serif;
+}
+
+.form-group{
+    background-color: #007bff91;
 }
 
 /*form*/
@@ -271,6 +275,15 @@ pd-feature-section-1{
 .ptb-02{
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.txtcolor-01{
+    color: rgba(255, 255, 255, 0.726);
+    font-weight: 100;
+    font-size: 13px;
+}
+hr{
+    border-top: 1px solid rgba(255, 255, 255, 0.1)!important;
 }
 
 /*--------------------------------------------------index.hmtl*/
