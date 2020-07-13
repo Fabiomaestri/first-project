@@ -186,6 +186,11 @@ div .jumbotron{
     color:#faf8f0;
 }
 
+.fas{
+    font-size: 50px;
+    color: cornflowerblue;
+}
+
 @media (max-width: 768px) {
     .water-mark{
         display: none
