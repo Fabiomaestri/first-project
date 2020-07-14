@@ -186,11 +186,6 @@ div .jumbotron{
     color:#faf8f0;
 }
 
-.fas{
-    font-size: 50px;
-    color: cornflowerblue;
-}
-
 @media (max-width: 768px) {
     .water-mark{
         display: none
@@ -486,4 +481,17 @@ hr{
 
 .pall-02{
     padding: 10px;
+}
+
+.c-course{
+    min-width: 100%!important;
+}
+
+.my-fas{
+    font-size: 50px!important;
+    color: cornflowerblue!important;
+}
+
+.my-fas-1{
+    color: cornflowerblue!important;
 }
