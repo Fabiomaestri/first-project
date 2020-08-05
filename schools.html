@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <script src="https://kit.fontawesome.com/2c8fb88f95.js" crossorigin="anonymous"></script>
+    <!--------------------------------------------------------- Favicons-->
+    <link rel="icon" href="assets/images/upedia-logo-favicon.png" sizes="32x32" type="image/png">
     <title>Schools</title>
 </head>
 <body>
@@ -33,9 +35,31 @@
                     <a class="nav-link active first_button" href="schools.html">Schools</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Login
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sign up and get 5% OFF at any english course</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <button type="button" class="btn btn-primary d-block mb-3 my-login-butons">Facebook</button>
+                            <button type="button" class="btn btn-primary my-google-btn d-block mb-3 my-login-butons">Google</button>
+                            <p class="text-center">Or</p>
+                            <input class="form-control mr-sm-2 my-lg-0 searchbar" type="search" placeholder="Email" aria-label="Search">
+                            <button type="button" class="btn btn-primary my-sign-in-btn d-block mt-3 mb-3 my-login-butons">Sign in</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </nav>
     <!--------------------------------------------------------- Img section-->
