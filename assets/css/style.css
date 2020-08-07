@@ -41,6 +41,10 @@ h5, h6{
     color: rgb(0, 45, 88);
 }
 
+.my-hr-line{
+    background-color: rgba(255, 255, 255, 0.445)!important;
+}
+
 /*------------------------------- Image background*/
 /*Nav Bar*/
 .img-logo{
