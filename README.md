@@ -5,22 +5,22 @@
 
 *This is a fictitious company*
 
-> UPEDIA is school platform which provide numerous options to  Food truck culture is all about food delivered at your doorstep! We especialize in food truck rentals and provide a wide array of services for any pocket.
-> We have developed a business from the ground up which has been serving our community for over 10 years and has won several awards like the 
+> UPEDIA is school platform which provide numerous options to our students! We especialize in education and provide a wide array of services in many countries
+> We have developed a business from the ground up which has been serving our learners for over 10 years and has won several awards like the 
 
-**International Food Truck Club** Award which takes place in Venice Beach, California.
+**International student education** Award which takes place in London.
 
 # Deployment and Demo
-Website has been deployed to [GitHub Pages](https://fandressouza.github.io/food-truck-culture/).
+Website has been deployed to [GitHub Pages](https://github.com/Fabiomaestri/first-project).
 
 # Wireframe
-The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) and links to the final version can be found below:
+The wireframe was designed using [Wireframe](https://wireframe.cc/) and links to the final version can be found below:
 - [Wireframe Final Version]()
 
 # UX
 I have opted to a simple and responsive design which is lightweight and has a loading time of less than 1 second.
 - Home page: Contains a jumbotron and a background image for the main section which resizes accordingly depending on user's viewport size
-- About us page: Contains a jumbotron with a inner carousel in the main section and a set of card elements at the bottom section for the leaders of the company
+- About us page: Contains a fixed image in the main section and a set of card elements at the bottom section for the philosophy of the company
 - Franchise page: Contains a form in the first section so users can sign up as franchiser owners. Below we have reused a jumbotron with inner carousel
 - Services page: Services page contains a grid system with inner card elements
 - contact page: Contact page contains a contact form with a food truck PNG image on top
