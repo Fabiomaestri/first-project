@@ -1,7 +1,7 @@
 <p align="center">
   <img src="assets/images/upedia-logo.png" alt="Food truck culture logo"/>
 </p>
-# Description
+#Description
 
 *This is a fictitious company*
 
@@ -78,7 +78,7 @@ I have used different resources for images and my logo, I'll list all below:
 
 # License
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
-Copyright 2020 Felipe Souza Alarcon.
+Copyright 2020 Fabio Maestri.
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
